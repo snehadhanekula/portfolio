@@ -10,11 +10,17 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center justify-content-center">
           <Col xs={12} className="text-center"> {/* Full width, centered */}
-            <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="Icon" /></a>
-              <a href="#"><img src={navIcon2} alt="Icon" /></a>
-              <a href="#"><img src={navIcon3} alt="Icon" /></a>
-            </div>
+          <div className="social-icon">
+							<a href="https://www.linkedin.com/in/snehadhanekula/">
+								<img src={navIcon1} alt="" />
+							</a>
+							<a href="https://github.com/snehadhanekula">
+								<img src={navIcon2} alt="" />
+							</a>
+							<a href="mailto:sdhanek1@asu.edu">
+								<img src={navIcon3} alt="" />
+							</a>
+						</div>
             <p>Sneha Dhanekula</p>
           </Col>
         </Row>
