@@ -81,7 +81,7 @@ export default function NavBar() {
             <button
               className="vvd"
               onClick={() =>
-                (window.location.href = "/Sneha_Dhanekula_Resume_Portfolio.pdf")
+                (window.location.href = "Sneha_Dhanekula_Resume_Portfolio.pdf")
               }
             >
               My Resume
