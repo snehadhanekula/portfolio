@@ -59,24 +59,32 @@ export default function NavBar() {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/snehadhanekula/">
+              <a
+                href="https://www.linkedin.com/in/snehadhanekula/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={navIcon1} alt="LinkedIn" />
               </a>
               <a
-                href="https://github.com/snehadhanekula"  // Updated link to your GitHub profile
+                href="https://github.com/snehadhanekula/portfolio"  // This now links to your GitHub profile.
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img src={navIcon2} alt="GitHub Profile" />
               </a>
-              <a href="mailto:snehad2404@gmail.com">
+              <a
+                href="mailto:snehad2404@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={navIcon3} alt="Email" />
               </a>
             </div>
             <button
               className="vvd"
               onClick={() =>
-                (window.location.href = "Sneha_Dhanekula_Resume_Portfolio.pdf")
+                window.location.href = "Sneha_Dhanekula_Resume_Portfolio.pdf"
               }
             >
               My Resume
