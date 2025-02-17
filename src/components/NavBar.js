@@ -63,7 +63,7 @@ export default function NavBar() {
                 <img src={navIcon1} alt="LinkedIn" />
               </a>
               <a
-                href="https://snehadhanekula.github.io/portfolio"
+                href="https://github.com/snehadhanekula/portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
               >
