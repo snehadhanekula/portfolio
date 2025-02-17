@@ -14,7 +14,7 @@ export default function Projects() {
         "Utilized React components and state management techniques to ensure a modular and maintainable codebase",
       ],
       imgUrl: projImg1,
-      projectUrl: "https://github.com/snehadhanekula",
+      projectUrl: "https://github.com/snehadhanekula/portfolio",
     },
     {
       title: "WORK IN PROGRESS",
