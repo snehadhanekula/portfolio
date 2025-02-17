@@ -65,13 +65,17 @@ export default function NavBar() {
           <span className="navbar-text">
             <div className="social-icon">
               <a href="https://www.linkedin.com/in/snehadhanekula/">
-                <img src={navIcon1} alt="" />
+                <img src={navIcon1} alt="LinkedIn" />
               </a>
-              <a href="https://snehadhanekula.github.io/portfolio">
-                <img src={navIcon2} alt="" />
+              <a
+                href="https://snehadhanekula.github.io/portfolio"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={navIcon2} alt="Portfolio" />
               </a>
               <a href="mailto:snehad2404@gmail.com">
-                <img src={navIcon3} alt="" />
+                <img src={navIcon3} alt="Email" />
               </a>
             </div>
             <button
@@ -88,4 +92,5 @@ export default function NavBar() {
     </Navbar>
   );
 }
+
 
