@@ -63,11 +63,11 @@ export default function NavBar() {
                 <img src={navIcon1} alt="LinkedIn" />
               </a>
               <a
-                href="https://github.com/snehadhanekula/portfolio"
+                href="https://github.com/snehadhanekula"  // Updated link to your GitHub profile
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={navIcon2} alt="Portfolio" />
+                <img src={navIcon2} alt="GitHub Profile" />
               </a>
               <a href="mailto:snehad2404@gmail.com">
                 <img src={navIcon3} alt="Email" />
@@ -76,7 +76,6 @@ export default function NavBar() {
             <button
               className="vvd"
               onClick={() =>
-                // Using a relative path for the resume
                 (window.location.href = "Sneha_Dhanekula_Resume_Portfolio.pdf")
               }
             >
@@ -88,6 +87,3 @@ export default function NavBar() {
     </Navbar>
   );
 }
-
-
-
