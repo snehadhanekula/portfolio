@@ -13,15 +13,10 @@ export default function NavBar() {
 
   useEffect(() => {
     const onScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", onScroll);
-
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
@@ -68,7 +63,7 @@ export default function NavBar() {
                 <img src={navIcon1} alt="LinkedIn" />
               </a>
               <a
-                href="https://github.com/snehadhanekula/portfolio"
+                href="https://snehadhanekula.github.io/portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -81,6 +76,7 @@ export default function NavBar() {
             <button
               className="vvd"
               onClick={() =>
+                // Using a relative path for the resume
                 (window.location.href = "Sneha_Dhanekula_Resume_Portfolio.pdf")
               }
             >
@@ -92,5 +88,6 @@ export default function NavBar() {
     </Navbar>
   );
 }
+
 
 
