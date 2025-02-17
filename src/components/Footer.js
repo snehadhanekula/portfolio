@@ -14,10 +14,10 @@ export const Footer = () => {
 							<a href="https://www.linkedin.com/in/snehadhanekula/">
 								<img src={navIcon1} alt="" />
 							</a>
-							<a href="https://github.com/snehadhanekula">
+							<a href="https://github.com/snehadhanekula/portfolio">
 								<img src={navIcon2} alt="" />
 							</a>
-							<a href="mailto:sdhanek1@asu.edu">
+							<a href="mailto:snehad2404@gmail.com">
 								<img src={navIcon3} alt="" />
 							</a>
 						</div>
