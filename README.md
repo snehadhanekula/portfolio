@@ -1,70 +1,156 @@
-# Getting Started with Create React App
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sneha Dhanekula Portfolio
 
-## Available Scripts
+Welcome to my personal portfolio website, built with **React** and hosted on **GitHub Pages**. You can view the live site here:
 
-In the project directory, you can run:
+**[snehadhanekula.github.io/portfolio/](https://snehadhanekula.github.io/portfolio/)**
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation & Usage](#installation--usage)
+- [Deployment](#deployment)
+- [Project Structure](#project-structure)
+- [Contact](#contact)
+- [License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## About the Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This portfolio showcases my experience, projects, and skills. Visitors can explore my background, check out my work, and easily connect with me via social media or email.
 
-### `npm run build`
+**Screenshot (Optional)**  
+*Include a screenshot of your portfolio homepage if you’d like.*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Responsive Design**: Works on mobile, tablet, and desktop.
+- **Animated Sections**: Utilizes libraries like Animate.css for smooth transitions.
+- **Skills & Projects**: Showcases core competencies and highlights selected projects.
+- **Contact Form (Optional)**: Allows direct communication or links to social platforms.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React**: Core library for building the UI.
+- **React-Bootstrap**: For styling and layout components.
+- **Animate.css**: For simple, ready-to-use animations.
+- **GitHub Pages**: For easy deployment and hosting.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+*(Add or remove any technologies you used.)*
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Installation & Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Node.js** (v14 or above)
+- **npm** or **yarn**
 
-### Code Splitting
+### Steps
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/snehadhanekula/portfolio.git
+   ```
+2. **Install Dependencies**:
+   ```bash
+   cd portfolio
+   npm install
+   ```
+3. **Start Development Server**:
+   ```bash
+   npm start
+   ```
+   The app will run at `http://localhost:3000`.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Deployment
 
-### Making a Progressive Web App
+This project is deployed on **GitHub Pages** at:
+```
+https://snehadhanekula.github.io/portfolio/
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To redeploy:
 
-### Advanced Configuration
+1. Set the `"homepage"` field in your `package.json`:
+   ```json
+   "homepage": "https://snehadhanekula.github.io/portfolio"
+   ```
+2. Install `gh-pages` (if not installed):
+   ```bash
+   npm install gh-pages --save-dev
+   ```
+3. Add these scripts to `package.json`:
+   ```json
+   "scripts": {
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d build",
+     ...
+   }
+   ```
+4. Deploy:
+   ```bash
+   npm run deploy
+   ```
+5. Your site will update at the above URL.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Project Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```
+portfolio
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── manifest.json
+│   ├── ...
+├── src
+│   ├── assets
+│   │   └── img
+│   ├── components
+│   │   ├── NavBar.js
+│   │   ├── Banner.js
+│   │   ├── Skills.js
+│   │   ├── Projects.js
+│   │   ├── Contact.js
+│   │   └── ...
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── package.json
+└── README.md
+```
 
-### `npm run build` fails to minify
+- **public**: Static files, including `index.html`.
+- **src**: Main React code and assets.
+- **package.json**: Project configuration and scripts.
+- **README.md**: Documentation (this file).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## Contact
+
+- **Portfolio**: [snehadhanekula.github.io/portfolio/](https://snehadhanekula.github.io/portfolio/)
+- **LinkedIn**: [linkedin.com/in/snehadhanekula/](https://www.linkedin.com/in/snehadhanekula/)
+- **GitHub**: [github.com/snehadhanekula](https://github.com/snehadhanekula)
+- **Email**: [snehad2404@gmail.com](mailto:snehad2404@gmail.com)
+
+Feel free to reach out if you have any questions or suggestions!
+
+---
+
+### Thank You!
+
+Thank you for visiting my portfolio. If you’d like to contribute or have feedback, feel free to open an issue or send me a message.
