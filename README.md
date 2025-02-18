@@ -1,5 +1,3 @@
----
-
 # Sneha Dhanekula Portfolio
 
 Welcome to my personal portfolio website, built with **React** and hosted on **GitHub Pages**. You can view the live site here:
