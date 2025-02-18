@@ -1,5 +1,4 @@
 <img width="1509" alt="image" src="https://github.com/user-attachments/assets/d3492499-4a64-4b5d-864e-00e9b1b7f209" />
-## Sneha Dhanekula Portfolio
 
 Welcome to my personal portfolio website, built with **React** and hosted on **GitHub Pages**. You can view the live site here:
 
