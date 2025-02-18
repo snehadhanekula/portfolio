@@ -28,7 +28,7 @@ This portfolio showcases my experience, projects, and skills. Visitors can explo
 - **Responsive Design**: Works on mobile, tablet, and desktop.
 - **Animated Sections**: Utilizes libraries like Animate.css for smooth transitions.
 - **Skills & Projects**: Showcases core competencies and highlights selected projects.
-- **Contact Form (Optional)**: Allows direct communication or links to social platforms.
+- **Contact Form (Communication)**: Allows direct communication or links to social platforms.
 
 ---
 
@@ -39,7 +39,6 @@ This portfolio showcases my experience, projects, and skills. Visitors can explo
 - **Animate.css**: For simple, ready-to-use animations.
 - **GitHub Pages**: For easy deployment and hosting.
 
-*(Add or remove any technologies you used.)*
 
 ---
 
