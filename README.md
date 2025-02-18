@@ -3,7 +3,7 @@
 
 Welcome to my personal portfolio website, built with **React** and hosted on **GitHub Pages**. You can view the live site here:
 
-**[snehadhanekula.github.io/portfolio/](https://snehadhanekula.github.io/portfolio/)**
+[snehadhanekula.github.io/portfolio/](https://snehadhanekula.github.io/portfolio/)
 
 ## Table of Contents
 
