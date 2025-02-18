@@ -13,7 +13,6 @@ Welcome to my personal portfolio website, built with **React** and hosted on **G
 - [Deployment](#deployment)
 - [Project Structure](#project-structure)
 - [Contact](#contact)
-- [License](#license)
 
 ---
 
