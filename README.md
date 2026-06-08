@@ -1,7 +1,9 @@
 <img width="1512" height="858" alt="Screenshot 2026-06-07 at 6 27 54 PM" src="https://github.com/user-attachments/assets/50825a63-e1fe-439b-b599-5485e405d6b6" />
 
-Welcome to my personal portfolio website, built with **React** and hosted on **GitHub Pages**. 
-You can view the live site here:
+# Sneha Dhanekula | Software Developer Portfolio 
+
+A responsive personal portfolio built with **React** and deployed through **GitHub Pages**. The website highlights my professional experience, full-stack development projects, technical skills, education, and leadership background. It reflects my experience with technologies including Angular, TypeScript, C#, ASP.NET Web API, SQL, React, Next.js, Firebase, cloud platforms, testing, and AI-assisted development workflows. 
+### Live Portfolio
 
 **[snehadhanekula.github.io/portfolio/](https://snehadhanekula.github.io/portfolio/)**
 
@@ -19,8 +21,13 @@ You can view the live site here:
 
 ## About the Project
 
-This portfolio showcases my experience, projects, and skills. Visitors can explore my background, check out my work, and easily connect with me via social media or email.
+This portfolio provides an overview of my background as a Software Developer and showcases my experience across frontend development, backend APIs, databases, cloud services, software testing, and AI-assisted engineering workflows. 
 
+Visitors can explore: 
+- Professional software development experience
+- Full-stack projects and technical case studies - Programming languages, frameworks, and developer tools
+- Leadership and campus involvement
+- Education and professional contact information The interface is designed to be responsive, accessible, and easy to navigate.
 ---
 
 ## Features
@@ -139,7 +146,7 @@ portfolio
 - **Portfolio**: [snehadhanekula.github.io/portfolio/](https://snehadhanekula.github.io/portfolio/)
 - **LinkedIn**: [linkedin.com/in/snehadhanekula/](https://www.linkedin.com/in/snehadhanekula/)
 - **GitHub**: [github.com/snehadhanekula](https://github.com/snehadhanekula)
-- **Email**: [snehad2404@gmail.com](mailto:snehad2404@gmail.com)
+- **Email**: [sdhanek1@asu.edu](mailto:sdhanek1@asu.edu)
 
 Feel free to reach out if you have any questions or suggestions!
 
