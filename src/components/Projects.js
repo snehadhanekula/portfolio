@@ -126,9 +126,12 @@ export default function Projects() {
 								Helped improve onboarding and user experience flows by combining mobile development, product thinking, and attention to user needs.
 								</li>
 							</ul>
+              <div className="nda-badge">
+                NDA-Protected Project
+              </div>
 							</div>
 							<div className="work-experience">
-								<h2>Enterprise Inspection Platform Case Study</h2>
+              <h2>Enterprise Inspection Platform</h2>
 								<h3>Angular, TypeScript, C#, ASP.NET Web API, SQL, Entity Framework, Azure DevOps</h3>
 
 								<ul>
@@ -144,6 +147,9 @@ export default function Projects() {
 									Strengthened feature quality through unit testing, integration testing, build validation, pull request feedback, debugging, and regression-focused review.
 									</li>
 								</ul>
+              <div className="nda-badge">
+                NDA-Protected Project
+              </div>
 							</div>
 							<div className="work-experience">
 								<h2>Lexical Analyzer Development Project</h2>
