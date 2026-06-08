@@ -74,7 +74,7 @@ export default function NavBar() {
                 <img src={navIcon2} alt="GitHub Profile" />
               </a>
               <a
-                href="mailto:snehad2404@gmail.com"
+                href="mailto:sdhanek1@asu.edu"
                 target="_blank"
                 rel="noopener noreferrer"
               >

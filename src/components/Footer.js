@@ -17,7 +17,7 @@ export const Footer = () => {
 							<a href="https://github.com/snehadhanekula/portfolio">
 								<img src={navIcon2} alt="" />
 							</a>
-							<a href="mailto:snehad2404@gmail.com">
+							<a href="mailto:sdhanek1@asu.edu">
 								<img src={navIcon3} alt="" />
 							</a>
 						</div>

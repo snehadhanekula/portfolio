@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Software Engineer", "FullStack Developer", "Web Developer"];
+  const toRotate = ["Software Developer", "Full-Stack Developer", ".NET Developer", "AI-Assisted Engineer"];
   const period = 2000;
 
   useEffect(() => {
@@ -55,26 +55,20 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>{`Hi! I'm Sneha `} 
-                    <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Engineer", "Data Analyst", "Web Developer" ]'>
+                  <span className="tagline">Full-Stack Software Developer | AI-Assisted Engineering</span>
+                  <h1>{`Hi! I'm Sneha Dhanekula, `} 
+                    <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Full-Stack Developer", ".NET Developer", "AI-Assisted Engineer" ]'>
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
                   <p>
-                    I'm a Master of Science student in Computer Science at Arizona State University, graduating in May 2025. 
-                    My expertise spans software engineering, data science, and algorithm optimization. 
-                    I have hands-on experience in full-stack web development using HTML, Firebase, and SQL, 
-                    as well as native application development with Swift, Java, and C++. 
-                    Additionally, I'm proficient in Python, leveraging it for machine learning, 
-                    data analytics, and software development. 
-                    My skills enable me to build scalable and efficient solutions for real-world impact.
+                    I build full-stack software across frontend, backend, database, testing, and cloud workflows using Angular, TypeScript, C#, ASP.NET Web API, SQL, Entity Framework, React, Next.js, Firebase, and Google Cloud Platform. In my current role, I develop enterprise inspection platform features from Azure DevOps user stories and acceptance criteria, delivering reusable UI components, API integrations, database-backed workflows, and tested production-ready changes. I also use Claude Code to accelerate debugging, test planning, code review preparation, and delivery speed while maintaining ownership of final implementation decisions.
                   </p>
                   <button 
                     className="vvd"
-                    onClick={() => window.location.href = "mailto:snehad2404@gmail.com"}
+                    onClick={() => window.location.href = "mailto:sdhaenk1@asu.edu"}
                   >
-                    Let’s Connect <ArrowRightCircle size={25} />
+                    Contact Me <ArrowRightCircle size={25} />
                   </button>
                 </div>}
             </TrackVisibility>
@@ -83,7 +77,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={headerImg} alt="Sneha Dhanekula software developer portfolio illustration"/>
                 </div>}
             </TrackVisibility>
           </Col>

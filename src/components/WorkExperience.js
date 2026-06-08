@@ -1,52 +1,76 @@
 import { Container, Row, Col } from "react-bootstrap";
 export default function WorkExperience() {
 	return (
-		<section className="">
+		<section className="experience-section" id="experience">
 			<Container>
+			<h1 className="section-title">Professional Experience</h1>
 				<Row>
 					<Col>
+						<div className="work-experience"> 
+							<h2>Aura Solutions, LLC Inc (June 2025 - Present)</h2> 
+							<h3>Software Developer</h3> 
+							<ul> 
+								<li> Built full-stack features for an enterprise inspection platform using Angular, TypeScript, C#, ASP.NET Web API, SQL, and Entity Framework. 
+								</li> 
+								<li> Delivered reusable UI components, REST API integrations, backend models, validators, repositories, and database-backed workflows from Azure DevOps user stories and acceptance criteria. 
+								</li> 
+								<li> Improved software quality through unit testing, integration testing, build validation, pull request reviews, debugging, and regression analysis. 
+								</li> 
+								<li> Used Claude Code to accelerate development, test planning, code review preparation, and requirements validation while maintaining ownership of final implementation decisions. 
+								</li> 
+							</ul> 
+						</div>
 						<div className="work-experience">
-							<h2>Channel Soft Inc  (May 2024 - Aug 2024)</h2>
+							<h2>Channel Soft Inc (May 2024 - Aug 2024)</h2>
 							<h3>Software Engineer Intern</h3>
 							<ul>
-								<li>
-                                Spearheaded full-stack development of features using Python and SQL, resolving 15+ critical bugs to boost stability by 20% and elevate satisfaction for 1,000+ users.
-                                </li>
-								<li>
-                                Engineered a 15% reduction in load times through SQL query optimization and caching strategies, setting a performance benchmark adopted for future releases.
-								</li>
-								<li>
-                                Collaborated with QA teams to streamline Agile testing workflows, accelerating feature deployment by 20% and aligning deliverables with business KPIs.
+								<li> Developed full-stack software features using Python and SQL, resolving 15+ production defects and improving application stability by 20% for more than 1,000 users. 
+								</li> 
+								<li> Optimized SQL queries and implemented caching strategies, reducing application load times by 15% and improving backend performance. 
+								</li> 
+								<li> Collaborated with QA and cross-functional teams in Agile sprints, improving testing workflows and accelerating feature delivery by 20%.
 								</li>
 							</ul>
 						</div>
                         <div className="work-experience">
-							<h2>Chain-Link Research  (May 2023 - Aug 2023)</h2>
+							<h2>Chain-Link Research (May 2023 - Aug 2023)</h2>
 							<h3>Software Engineer Intern</h3>
 							<ul>
+								<li> Redesigned WordPress website layouts using HTML, CSS, SEO practices, and analytics insights, increasing user engagement by 10%. 
+								</li> 
+								<li> Collaborated with engineering teams during Agile sprints to prototype responsive web solutions and reduce client-reported latency by 18%. 
+								</li> 
+								<li> Refactored legacy frontend code using HTML and CSS best practices, improving maintainability, mobile responsiveness, and scalability for future releases. 
+								</li>
+							</ul>
+						</div>
+						<div className="work-experience">
+							<h2>SeeMe (Apr 2023 - Apr 2024)</h2>
+							<h3>Application Developer</h3>
+							<ul>
 								<li>
-                                Leveraged WordPress CMS and analytics to redesign website layouts, driving a 10% user engagement increase through SEO-optimized, mobile-responsive content.
-                                </li>
-								<li>
-                                Partnered with engineering teams to prototype web solutions during Agile sprints, reducing client-reported latency by 18% and exceeding performance targets.
+								Contributed to an AI-powered digital journaling platform focused on user-centered mobile experiences, onboarding workflows, and backend feature support.
 								</li>
 								<li>
-                                Modernized legacy codebases with HTML/CSS best practices, improving site scalability for 3+ future feature deployments.
+								Supported application development using Swift, Xcode, Firebase, and backend workflows to improve real-time functionality and cross-platform usability.
+								</li>
+								<li>
+								Helped shape onboarding and user experience flows by combining technical development, product thinking, and attention to accessibility across digital ecosystems.
 								</li>
 							</ul>
 						</div>
                         <div className="work-experience">
-							<h2>DSL EST PVT LTD (May 2022 - Aug 2022)  </h2>
+							<h2>DSL EST PVT LTD (May 2022 - Aug 2022)</h2>
 							<h3>Technical Support Intern </h3>
 							<ul>
-								<li>
-                                Diagnosed 50+ daily network issues using Cisco tools, slashing resolution time by 20% and improving customer satisfaction scores by 35%.
-								</li>
-								<li>
-                                Optimized router and switch configurations for 1,000+ users, reducing downtime by 30% during peak hours and enabling seamless remote operations.
-								</li>
-								<li>
-                                Documented troubleshooting protocols for 15+ technicians, cutting escalations by 25% and standardizing team workflows.
+								<li> 
+								Diagnosed and resolved 50+ network and connectivity issues using Cisco tools, reducing average resolution time by 20%. 
+								</li> 
+								<li> 
+								Configured and optimized routers and switches supporting more than 1,000 users, reducing downtime by 30% during peak usage periods. 
+								</li> 
+								<li> 
+								Created standardized troubleshooting documentation for 15+ technicians, reducing escalations by 25% and improving support consistency. 
 								</li>
 							</ul>
 						</div>
