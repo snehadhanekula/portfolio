@@ -1,4 +1,4 @@
-<img width="1509" alt="image" src="https://github.com/user-attachments/assets/d3492499-4a64-4b5d-864e-00e9b1b7f209" />
+<img width="1512" height="858" alt="Screenshot 2026-06-07 at 6 27 54 PM" src="https://github.com/user-attachments/assets/50825a63-e1fe-439b-b599-5485e405d6b6" />
 
 Welcome to my personal portfolio website, built with **React** and hosted on **GitHub Pages**. 
 You can view the live site here:
